@@ -1,0 +1,16 @@
+.headerGreen {
+    background-color: #56a647;
+    color: white;
+}
+
+.headerLogo {
+    font-size: large;
+}
+
+.headerLink {
+    color: white !important;
+}
+
+.headerLink:hover {
+    color: lightgray !important;
+}
