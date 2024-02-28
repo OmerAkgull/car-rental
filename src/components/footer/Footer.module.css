@@ -1,0 +1,43 @@
+.bgGreen {
+  background-color: #56a647;
+  color: white;
+}
+
+.button {
+  background-color: transparent;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  padding: 10px 25px;
+  border-radius: 7px;
+  font-weight: 800;
+  font-size: 20px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.button:hover {
+  background-color: #ffd700;
+  color: #56a647;
+}
+
+.input {
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  text-align: left;
+  width: 530px;
+}
+
+@media (max-width: 772px) {
+  .input {
+    width: 100%;
+  }
+
+  .button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}
+
+.footerText {
+    font-size: 18px;
+}

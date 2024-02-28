@@ -8,14 +8,14 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Navbar
-      fixed="top"
+      sticky="top"
       data-bs-theme="dark"
       expand="md"
       className={classes.headerGreen}
     >
       <Container className="py-2">
         <Navbar.Brand className="fs-1 d-flex align-items-center gap-2" href="#">
-          <FaCar />
+          <FaCar style={{color:"#FFD700"}} />
           <div className="fw-bold">Car Rental</div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
