@@ -6,8 +6,8 @@ const Footer = () => {
 
   return (
     <footer className={classes.bgGreen}>
-      <Container className="d-flex flex-column justify-content-center align-items-center">
-        <p className={classes.footerText}>Subscribe to our newsletter and get special offers.</p>
+      <Container className="d-flex pt-5 flex-column justify-content-center align-items-center">
+        <p className={`mb-3 ${classes.footerText}`}>Subscribe to our newsletter and get special offers.</p>
         <form className="d-flex gap-4">
           <input className={classes.input} placeholder="Your email address"/>
           <button onClick={(e) => e.preventDefault()} className={`${classes.button}`}>SUBSCRIBE NOW</button>
@@ -16,7 +16,7 @@ const Footer = () => {
           <Image className={classes.brandLogo} src="/Instagram_Glyph_White.png" alt="instagram logo"></Image>
           <Image className={classes.brandLogo} src="/Facebook_Logo_Secondary.png" alt="facebook logo"></Image>
         </div>
-        <p className={`mt-4 ${classes.copyright}`}>© 2024. Car Rental</p>
+        <p className={`mt-4 pb-3 ${classes.copyright}`}>© 2024. Car Rental</p>
       </Container>
     </footer>
   );

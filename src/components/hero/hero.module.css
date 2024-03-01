@@ -1,0 +1,31 @@
+.bgGreen {
+  background-color: #56a647;
+  color: white;
+}
+
+.offer {
+  color: #ffd700;
+}
+
+.heroButton {
+  background-color: transparent;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  padding: 10px 15px;
+  border-radius: 7px;
+  font-weight: 800;
+  font-size: 20px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.heroButton:hover {
+  background-color: #ffd700;
+  color: #56a647;
+}
+
+@media (max-width: 772px) {
+  .heroButton {
+    padding: 10px 10px;
+    font-size: 16px;
+  }
+}
