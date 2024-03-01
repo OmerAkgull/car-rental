@@ -41,3 +41,13 @@
 .footerText {
     font-size: 18px;
 }
+
+.brandLogo {
+  max-width: 45px;
+  height: auto;
+}
+
+.copyright {
+  color: white;
+  opacity: .3;
+}
