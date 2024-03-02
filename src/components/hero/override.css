@@ -1,0 +1,10 @@
+.ant-select-item-option {
+    color: #56a647 !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.ant-select-item-option:hover {
+    color: white !important;
+    background-color: #56a647 !important;
+}

@@ -8,7 +8,7 @@
 }
 
 .heroButton {
-  background-color: transparent;
+  background-color: #56a647;
   color: #ffd700;
   border: 2px solid #ffd700;
   padding: 10px 15px;
@@ -28,4 +28,11 @@
     padding: 10px 10px;
     font-size: 16px;
   }
+}
+
+.reserveForm {
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+  padding: 20px 15px 25px 30px;
 }

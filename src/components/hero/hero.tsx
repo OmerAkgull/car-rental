@@ -1,7 +1,11 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import classes from "./hero.module.css";
+import { Select } from "antd";
+import "./override.css";
 
 const Hero = () => {
+
+
   return (
     <main className={classes.bgGreen}>
       <Container className="text-center pt-3">
@@ -11,17 +15,36 @@ const Hero = () => {
         <div className="d-flex flex-column justify-content-center align-items-center">
           <Image src="/heroCar.png"></Image>
         </div>
-        <form className="mt-4 text-start">
-            <Row>
-                <Col md={10}>
-                    <Row>
-                        <Col sm={6} md={6}>fdsfsd</Col>
-                        <Col sm={3} md={3}>fdsfsd</Col>
-                        <Col sm={3} md={3}>fdsdfs</Col>
-                    </Row>
+        <form className={`mt-5 text-start ${classes.reserveForm}`}>
+          <Row>
+            <Col md={10}>
+              <Row>
+                <Col sm={6} md={6} className="d-flex flex-column">
+                  <p>Pick up from</p>
+                  <Select
+                  placeholder="Choose"
+                    style={{ width: '100%' }}
+                    options={[
+                      { value: "Ankara Airport", label: "Ankara Airport" },
+                      { value: "Adana Airport", label: "Adana Airport" },
+                      { value: "Antalya Airport", label: "Antalya Airport" },
+                      { value: "Dalaman Airport", label: "Dalaman Airport" },
+                      { value: "Istanbul Airport", label: "Istanbul Airport" }
+                    ]}
+                  />
                 </Col>
-                <Col md={2}><button>RESERVE</button></Col>
-            </Row>
+                <Col sm={3} md={3}>
+                  fdsfsd
+                </Col>
+                <Col sm={3} md={3}>
+                  fdsdfs
+                </Col>
+              </Row>
+            </Col>
+            <Col md={2}>
+              <button className={`${classes.heroButton}`}>RESERVE</button>
+            </Col>
+          </Row>
         </form>
       </Container>
     </main>
