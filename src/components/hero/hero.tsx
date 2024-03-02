@@ -1,11 +1,9 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import classes from "./hero.module.css";
-import { Select } from "antd";
+import { Select, DatePicker, TimePicker } from "antd";
 import "./override.css";
 
 const Hero = () => {
-
-
   return (
     <main className={classes.bgGreen}>
       <Container className="text-center pt-3">
@@ -22,27 +20,35 @@ const Hero = () => {
                 <Col sm={6} md={6} className="d-flex flex-column">
                   <p>Pick up from</p>
                   <Select
-                  placeholder="Choose"
-                    style={{ width: '100%' }}
+                    placeholder="Choose"
+                    style={{ width: "100%" }}
                     options={[
                       { value: "Ankara Airport", label: "Ankara Airport" },
                       { value: "Adana Airport", label: "Adana Airport" },
                       { value: "Antalya Airport", label: "Antalya Airport" },
                       { value: "Dalaman Airport", label: "Dalaman Airport" },
-                      { value: "Istanbul Airport", label: "Istanbul Airport" }
+                      { value: "Istanbul Airport", label: "Istanbul Airport" },
                     ]}
                   />
                 </Col>
-                <Col sm={3} md={3}>
-                  fdsfsd
+                <Col className="d-flex flex-column" sm={3} md={3}>
+                  <p>Pick up date</p>
+                  <div className="d-flex">
+                    <DatePicker />
+                    <TimePicker minuteStep={30} format={'HH:mm'} />
+                  </div>
                 </Col>
-                <Col sm={3} md={3}>
-                  fdsdfs
+                <Col sm={3} md={3} className="d-flex flex-column">
+                  <p>Drop off date</p>
+                  <div className="d-flex">
+                    <DatePicker />
+                    <TimePicker minuteStep={30} format={'HH:mm'} />
+                  </div>
                 </Col>
               </Row>
             </Col>
             <Col md={2}>
-              <button className={`${classes.heroButton}`}>RESERVE</button>
+              <button onClick={(e) => e.preventDefault()} className={`mt-2 ms-lg-4 ${classes.heroButton}`}>RESERVE</button>
             </Col>
           </Row>
         </form>
