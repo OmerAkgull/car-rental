@@ -6,7 +6,7 @@ import "./override.css";
 const Hero = () => {
   return (
     <main className={classes.bgGreen}>
-      <Container className="text-center pt-3">
+      <Container className="text-center pt-3 pb-5">
         <p className="fs-4 fw-bold">CHECK OUT OUR SPECIAL</p>
         <p className={`fs-1 fw-bold ${classes.offer}`}>NEW YEAR'S OFFER</p>
         <button className={`mt-3 ${classes.heroButton}`}>READ MORE</button>
