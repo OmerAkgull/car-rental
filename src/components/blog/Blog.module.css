@@ -1,3 +1,19 @@
 .blogHeader {
     color: #56a647;
 }
+
+.blogButton {
+    color: #56a647;
+    background-color: transparent;
+    border: 1px solid #56a647;
+    border-radius: 7px;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.blogButton:hover {
+    color: white;
+    background-color: #56a647;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}

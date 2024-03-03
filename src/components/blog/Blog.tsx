@@ -23,7 +23,7 @@ const Blog = () => {
           </Col>
         </Row>
         <div className="d-flex justify-content-center align-items-center">
-        <button className="mt-5 text-center">SEE ALL</button>
+        <button className={`mt-5 ${classes.blogButton}`}>SEE ALL</button>
         </div>
       </Container>
       </section>
