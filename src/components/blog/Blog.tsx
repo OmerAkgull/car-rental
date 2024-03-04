@@ -1,8 +1,13 @@
 import { Col, Container, Row } from "react-bootstrap";
 import classes from "./Blog.module.css";
 import CustomCard from "../card/Card";
+import { useNavigate } from "react-router-dom";
 
 const Blog = () => {
+
+
+  const navigate = useNavigate();
+
   return (
     <>
       <section className="bg-light">
@@ -44,7 +49,7 @@ const Blog = () => {
             </Col>
           </Row>
           <div className="d-flex justify-content-center align-items-center">
-            <button className={`mt-5 ${classes.blogButton}`}>SEE ALL</button>
+            <button onClick={()=> navigate("blog")} className={`mt-5 ${classes.blogButton}`}>SEE ALL</button>
           </div>
         </Container>
       </section>
