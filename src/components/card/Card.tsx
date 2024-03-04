@@ -14,7 +14,7 @@ const CustomCard = ({src, header, content}: Card) => {
             <img className={classes.imgRadius} src={src}></img>
         </div>
         <h5 className="text-center fw-bold pt-2">{header}</h5>
-        <p className="text-center">{content}</p>
+        <p className="text-center mt-2">{content}</p>
     </div>
     </>
   )

@@ -1,39 +1,47 @@
 .ant-select-item-option,
 .ant-select-selection-item {
-    color: #56a647 !important;
-    font-weight: 600 !important;
-    font-size: 16px !important;
+  color: #56a647 !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
 }
 
 .ant-select-item-option:hover {
-    color: white !important;
-    background-color: #56a647 !important;
+  color: white !important;
+  background-color: #56a647 !important;
 }
 
 .ant-picker-now {
-    display: none !important;
+  display: none !important;
 }
 
 .ant-picker-body {
-    font-size: 16px !important;
+  font-size: 16px !important;
 }
 
 .ant-picker-header {
-    background-color: #56a647 !important;
-    color: white !important;
-    font-size: 16px !important;
+  background-color: #56a647 !important;
+  color: white !important;
+  font-size: 16px !important;
 }
 
 .ant-picker-next-icon,
 .ant-picker-header-prev-btn {
-    color: white !important;
+  color: white !important;
 }
 
 .ant-picker-super-next-icon,
 .ant-picker-super-prev-icon {
-    display: none !important;
+  display: none !important;
 }
 
 .ant-picker-suffix {
-    display: none !important;
+  display: none !important;
+}
+
+.ant-picker-cell-selected .ant-picker-cell-inner {
+  background-color: #56a647 !important;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner:before {
+    border: 1px solid #56a647 !important;
 }

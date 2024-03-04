@@ -10,4 +10,6 @@
 
 .cardPadding {
     padding-bottom: 110px;
+    max-width: min-content;
+    height: 100%;
 }

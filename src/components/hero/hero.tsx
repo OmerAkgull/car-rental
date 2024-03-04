@@ -47,7 +47,7 @@ const Hero = () => {
                 </Col>
               </Row>
             </Col>
-            <Col md={2}>
+            <Col md={2} className="d-flex justify-content-center align-items-center">
               <button onClick={(e) => e.preventDefault()} className={`mt-2 ms-lg-4 ${classes.heroButton}`}>RESERVE</button>
             </Col>
           </Row>
