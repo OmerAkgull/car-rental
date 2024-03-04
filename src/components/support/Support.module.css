@@ -2,3 +2,9 @@
     background-color: #56a647;
     color: white;
 }
+
+.hoverEffect:hover {
+    color: #ffd700;
+    cursor: pointer;
+    transition:color 0.5s ease;
+}
