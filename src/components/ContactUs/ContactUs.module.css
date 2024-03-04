@@ -1,0 +1,22 @@
+.header {
+   color: #56a647; 
+}
+
+.firstCard {
+    border-right: 1px solid #56a647;
+    border-left: 1px solid #56a647;
+}
+
+.thirdCard {
+    border-right: 1px solid #56a647;
+}
+
+.cards {
+    border-right: 1px solid #56a647;
+}
+
+@media (max-width:772px) {
+    .thirdCard {
+        border-left: 1px solid #56a647;
+    }
+}
