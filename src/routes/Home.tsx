@@ -2,6 +2,7 @@
 import Hero from "../components/hero/hero";
 import Blog from "../components/blog/Blog";
 import Support from "../components/support/Support";
+import Fleet from "../components/fleet/Fleet";
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <Hero/>
     <Blog/>
     <Support/>
+    <Fleet/>
     </>
     )
 }
