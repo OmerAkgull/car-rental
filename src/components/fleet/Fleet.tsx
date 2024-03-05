@@ -8,7 +8,8 @@ const Fleet = () => {
         all: {
           slidesToShow: 3,
           enableAutoplay: true,
-          autoplayInterval: 2000,
+          autoplayInterval: 1800,
+          stopAutoplayOnInteraction: false,
         },
       })
 
