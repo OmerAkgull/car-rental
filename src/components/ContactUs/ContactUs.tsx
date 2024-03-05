@@ -10,7 +10,7 @@ const ContactUs = () => {
   return (
     <section className="pt-5 pb-5">
       <h1 className={`text-center fw-bold ${classes.header}`}>CONTACT US</h1>
-      <Container>
+      <Container className="pb-5">
         <Row className="mt-5">
           <Col xs={6} md={3} className={classes.firstCard}>
             <div className="d-flex flex-column justify-content-center align-items-center">

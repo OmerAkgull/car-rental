@@ -1,0 +1,63 @@
+.bgGreen {
+    background-color: #56a647;
+    color: white;
+}
+
+.headerBigText {
+    color:#ffd700;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.headerSmallText {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media (max-width:1200px) {
+    .headerBigText {
+        font-size: 46px;
+    }
+    
+.headerSmallText {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+}
+
+@media (max-width:992px) {
+    .headerBigText {
+        font-size: 26px;
+    }
+    
+.headerSmallText {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+}
+
+@media (max-width:520px) {
+    .headerBigText {
+        font-size: 20px;
+    }
+    
+.headerSmallText {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+}
+
+@media (max-width:400px) {
+    .headerBigText {
+        font-size: 16px;
+    }
+    
+.headerSmallText {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+}
