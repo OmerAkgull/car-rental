@@ -14,7 +14,7 @@ const Header = () => {
       className={classes.headerGreen}
     >
       <Container className="py-2">
-        <Navbar.Brand className="fs-1 d-flex align-items-center gap-2" href="/">
+        <Navbar.Brand as={Link} to={"/"} className="fs-1 d-flex align-items-center gap-2">
           <FaCar style={{color:"#FFD700"}} />
           <div className="fw-bold">Car Rental</div>
         </Navbar.Brand>
