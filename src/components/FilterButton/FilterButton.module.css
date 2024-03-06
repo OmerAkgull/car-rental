@@ -19,3 +19,10 @@
     border-color: #56a647;
     background-color: #56a647;
 }
+
+.active {
+    border:none;
+    color: white;
+    border-color: #56a647;
+    background-color: #56a647;
+}

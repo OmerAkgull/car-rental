@@ -2,11 +2,13 @@ import classes from "./FilterButton.module.css"
 
 interface FilterButton {
     text: string,
+    onclick: React.MouseEventHandler<HTMLButtonElement>,
+    isActive: boolean,
 }
 
-const FilterButton = ({text}: FilterButton) => {
+const FilterButton = ({text, onclick, isActive}: FilterButton) => {
   return (
-    <button className={classes.filterButton}>{text}</button>
+    <button onClick={onclick} className={`${classes.filterButton} ${isActive ? classes.active : ""}`}>{text}</button>
   )
 }
 
