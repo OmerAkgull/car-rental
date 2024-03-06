@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./routes/Home";
 import BlogPage from "./routes/BlogPage";
 import ContactPage from "./routes/ContactPage";
+import OurFleet from "./routes/OurFleet";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path:"contact",
         element: <ContactPage/>
+      },
+      {
+        path:"fleet",
+        element: <OurFleet/>
       }
     ],
   },

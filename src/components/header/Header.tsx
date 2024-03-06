@@ -21,13 +21,13 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto fs-5 gap-3">
-            <Nav.Link as={Link} to={""} href="#home">
+            <Nav.Link as={Link} to={"fleet"}>
               Our Fleet
             </Nav.Link>
             <Nav.Link as={Link} to={"blog"}>
               Blog
             </Nav.Link>
-            <Nav.Link as={Link} to={"contact"} href="#contact">
+            <Nav.Link as={Link} to={"contact"}>
               Contact Us
             </Nav.Link>
           </Nav>
