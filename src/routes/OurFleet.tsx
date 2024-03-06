@@ -1,7 +1,10 @@
+import CarFilter from "../components/CarFilter/CarFilter"
 
 const OurFleet = () => {
   return (
-    <div>OurFleet</div>
+    <>
+    <CarFilter/>
+    </>
   )
 }
 

@@ -1,0 +1,25 @@
+.filterButton {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 13px;
+    background-color: transparent;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: 1px solid;
+    border-color: #92df84;
+    color: #92df84;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.filterButton:hover {
+    border:none;
+    color: white;
+    border-color: #56a647;
+    background-color: #56a647;
+}
