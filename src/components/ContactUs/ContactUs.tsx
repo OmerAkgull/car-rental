@@ -35,7 +35,7 @@ const ContactUs = () => {
               <p>+904838889283</p>
             </div>
           </Col>
-          <Col xs={6} md={3} className={`pt-4 pt-md-0 ${classes.thirdCard}`}>
+          <Col xs={6} md={3} className={`pt-4 mt-3 mt-md-0 pt-md-0 ${classes.thirdCard}`}>
             {" "}
             <div className="d-flex flex-column justify-content-center align-items-center">
               <div className="d-flex gap-2">
@@ -50,7 +50,7 @@ const ContactUs = () => {
               </div>
             </div>
           </Col>
-          <Col xs={6} md={3} className={`pt-4 pt-md-0 ${classes.cards}`}>
+          <Col xs={6} md={3} className={`pt-4 mt-2 mt-md-0 pt-md-0 ${classes.cards}`}>
             {" "}
             <div className="d-flex flex-column justify-content-center align-items-center">
               <div className="d-flex gap-2">

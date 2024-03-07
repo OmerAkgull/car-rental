@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       {
         path:"fleet",
         element: <OurFleet/>
-      }
+      },
     ],
   },
 ]);
